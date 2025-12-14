@@ -12,7 +12,7 @@ def weather():
     return "sunny"
 
 
-model_id = "meta.llama3-2-1b-instruct-v1:0"
+model_id = "eu.amazon.nova-micro-v1:0"
 model = BedrockModel(
     model_id=model_id,
 )

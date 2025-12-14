@@ -22,7 +22,7 @@ def invoke_agent():
     boto3_response = agentcore_client.invoke_agent_runtime(
         agentRuntimeArn=agent_arn,
         qualifier="DEFAULT",
-        payload=json.dumps({"prompt": "What is 2+2?"})
+        payload=json.dumps({"prompt": "Using the provided tools, answer the questions: What is 12+50? What is the weather?"})
     )
     if "text/event-stream" in boto3_response.get("contentType", ""):
         content = []
