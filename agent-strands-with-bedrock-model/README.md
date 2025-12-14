@@ -51,7 +51,12 @@ weather information.
 
 ## 📄 Script Descriptions
 
-
+- `deploy.py`: Deploys the Strands Agent with the Amazon Bedrock model to the AWS AgentCore runtime, setting up all
+  necessary resources.
+- `agent.py`: Contains the main logic for the Strands Agent, including tool integration and model configuration.
+- `agent_client_remote.py`: Provides a client example for connecting to the deployed agent on AWS, sending prompts, and
+  displaying results.
+- `cleanup.py`: Cleans up AWS resources created during deployment. It checks if the agent runtime with the specified
 
 ## 🔗 References
 
