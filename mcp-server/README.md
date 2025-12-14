@@ -2,7 +2,7 @@
 
 ## 📝 Overview
 
-This repository contains as sample code for MCP Server running on the AWS AgentCore Runtime. It exposes basic
+This repository contains a sample code for MCP Server running on the AWS AgentCore Runtime. It exposes basic
 arithmetic tools (add, subtract, multiply, divide) via a FastMCP server and demonstrates integration with AWS services
 for authentication and deployment. The repository includes scripts for local and remote client interaction, AWS Cognito
 setup, and automated cleanup of resources.
