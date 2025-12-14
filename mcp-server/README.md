@@ -51,7 +51,7 @@ You can try local usage first, then switch to remote usage.
 
 - Provision AWS Cognito, secrets, and AgentCore runtime:
   ```bash
-  python mcp_aws_setup.py
+  python deploy.py
   ```
 
 ### 🌐 4. Remote Client Example
