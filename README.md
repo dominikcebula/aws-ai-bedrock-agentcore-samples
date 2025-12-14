@@ -7,6 +7,7 @@ This repository contains code samples for the [Amazon Bedrock AgentCore](https:/
 ## 💻 Code samples
 
 - [MCP Server on AWS AgentCore Runtime](mcp-server)
+- [Strands Agent with Amazon Bedrock model in Amazon Bedrock AgentCore Runtime](agent-strands-with-bedrock-model)
 
 ## 🔗 References
 
