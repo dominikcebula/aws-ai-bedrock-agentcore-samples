@@ -6,14 +6,13 @@ from strands_tools import calculator  # Import the calculator tool
 app = BedrockAgentCoreApp()
 
 
-# Create a custom tool
 @tool
 def weather():
     """ Get weather """  # Dummy implementation
     return "sunny"
 
 
-model_id = "global.anthropic.claude-haiku-4-5-20251001-v1:0"
+model_id = "meta.llama3-2-1b-instruct-v1:0"
 model = BedrockModel(
     model_id=model_id,
 )
